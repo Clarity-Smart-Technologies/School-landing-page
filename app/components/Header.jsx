@@ -22,10 +22,10 @@ export default function Header() {
             className="text-white font-bold p-16 relative"
         >
 
-            <div className="bg-yellow px-10 py-6 text-primary w-full md:w-[250px] text-center font-light">Education is power</div>
+            <div className="bg-yellow px-10 py-2 text-primary w-full md:w-[250px] text-center font-light">Education is power</div>
             <h2 className={` ${inter.className} text-6xl leading-[5rem]`}>Ignite your passion <br /> for learning</h2>
             <p className="text-white font-light text-2xl mb-4">High-quality, globally accessible online education for everyone,<br /> regardless of location</p>
-        	<Link href="#" className="px-6 py-2 bg-transparent border border-white rounded-full text-white my-8">Get Started Today</Link>
+        	<Link href="#" className="px-6 py-2 bg-transparent border border-white rounded-full text-white my-8 transition duration-500 hover:text-black font-bold hover:bg-white">Get Started Today</Link>
         </header>
     )
 }
