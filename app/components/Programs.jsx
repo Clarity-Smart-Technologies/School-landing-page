@@ -63,7 +63,7 @@ export default function Programs () {
 					programs.map(program => {
 						const {name, icon, dest} = program;
 						return (
-							<Link href={dest} className="bg-white p-12 rounded-lg text-primary grid justify-center items-center gap-4">
+							<Link key={Math.random()} href={dest} className="bg-white p-12 rounded-lg text-primary grid justify-center items-center gap-4">
 								<div className="flex justify-center items-center">{icon}</div>
 								<h2>{name}</h2>
 							</Link>
