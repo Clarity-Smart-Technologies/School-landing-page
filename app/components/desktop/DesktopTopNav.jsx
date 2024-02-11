@@ -5,7 +5,7 @@ export default function DesktopTopNav () {
 		<section className="bg-primary flex justify-end text-sm">
 			<article className="text-white text-center flex gap-8 px-4">
 				<Link href="#" className="p-2">Login</Link>
-				<Link href="#" className="p-2">Alumni</Link>
+				<Link href="#" className="p-2">Donate</Link>
 				<Link href="#" className="p-2">International</Link>
 				<Link href="#" className="p-2">Contact Us</Link>
 				<Link href="#" className="p-2">Help Center</Link>

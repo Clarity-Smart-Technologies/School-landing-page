@@ -15,7 +15,7 @@ const poppins = Poppins({
 export default function Programs () {
 	const programs = [
 		{
-			name: "Nursing",
+			name: "Data Science ",
 			icon: <LiaUserNurseSolid size={50} />,
 			dest: ""
 		},
@@ -70,6 +70,7 @@ export default function Programs () {
 						)
 					})
 				}
+				
 			</div>
 		</section>
 	)
