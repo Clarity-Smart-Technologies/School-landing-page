@@ -1,5 +1,5 @@
 // Header image import
-const headerImg = "/Images/student.jpg";
+const headerImg = "https://img.freepik.com/free-photo/elegant-black-girl-winter-city_1157-19207.jpg?size=626&ext=jpg&ga=GA1.2.1664779127.1707813888&semt=ais";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 

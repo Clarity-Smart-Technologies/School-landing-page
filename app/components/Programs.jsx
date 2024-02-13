@@ -10,14 +10,14 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({
 	subsets: ['latin'],
 	weight: '300'
-})
+});
 
-export default function Programs () {
+export default function Programs() {
 	const programs = [
 		{
-			name: "Data Science ",
+			name: "Information Systems",
 			icon: <LiaUserNurseSolid size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses/information-systems/"
 		},
 		{
 			name: "Counseling",
@@ -25,9 +25,9 @@ export default function Programs () {
 			dest: ""
 		},
 		{
-			name: "Psychology",
+			name: "Data Structures & Algorithms",
 			icon: <GiBrain size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses/data-structures-algorithms/"
 		},
 		{
 			name: "Education",
@@ -35,18 +35,18 @@ export default function Programs () {
 			dest: ""
 		},
 		{
-			name: "Social Work",
+			name: "Financial Accounting",
 			icon: <MdFamilyRestroom size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses/new-course/"
 
 		},
 		{
 			name: "Explore all",
 			icon: <FaWpexplorer size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses"
 
 		}
-	]
+	];
 
 	return (
 		<section className="px-16 py-8 bg-primary flex justify-between">
@@ -59,19 +59,16 @@ export default function Programs () {
 			</div>
 
 			<div className="grid grid-cols-3 gap-6">
-				{
-					programs.map(program => {
-						const {name, icon, dest} = program;
-						return (
-							<Link key={Math.random()} href={dest} className="bg-white p-12 rounded-lg text-primary grid justify-center items-center gap-4">
-								<div className="flex justify-center items-center">{icon}</div>
-								<h2>{name}</h2>
-							</Link>
-						)
-					})
-				}
-				
+				{programs.map(program => {
+					const { name, icon, dest } = program;
+					return (
+						<Link key={Math.random()} href={dest} className="bg-white p-12 rounded-lg text-primary grid justify-center items-center gap-4 hover:bg-gray-500 hover:text-gray-800 transition-colors duration-300 ease-in-out">
+							<div className="flex justify-center items-center">{icon}</div>
+							<h2>{name}</h2>
+						</Link>
+					);
+				})}
 			</div>
 		</section>
-	)
+	);
 }
