@@ -10,9 +10,8 @@ export default function DesktopTopNav() {
     return (
         <section className="bg-primary flex justify-end text-sm">
             <article className="text-white text-center flex gap-8 px-4 ">
-                <Link href="#" className="p-2 hover:bg-gray-700">Login</Link>
-                <Link  href={donate} className="p-2 hover:bg-gray-700">Donate</Link>
-                <Link href="#" className="p-2 hover:bg-gray-700">International</Link>
+                <Link href="https://j4m.c1b.myftpupload.com/student-registration/" className="p-2 hover:bg-gray-700">Login</Link>
+                <Link  href="https://j4m.c1b.myftpupload.com/elementor-landing-page-279/?preview=true" className="p-2 hover:bg-gray-700">Donate</Link>
 
                 <Link href="#" className="p-2 hover:bg-gray-700">Help Center</Link>
                 <Link href="#" className="p-2 hover:bg-gray-700">News and events</Link>
