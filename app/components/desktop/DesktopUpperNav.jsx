@@ -9,7 +9,7 @@ const merriweather = Merriweather({
 export default function DesktopUpperNav() {
     return (
         <section className="py-8 px-14 flex justify-between shadow-md items-center">
-            <h2 className={`${merriweather.className} text-xl text-primary`}>The Shepherd Online School</h2>
+            <h2 className={`${merriweather.className} text-xl text-primary`}>The Shepherd International School</h2>
             <article className="text-primary font-bold flex gap-8 items-center ">
                 <Link href="https://j4m.c1b.myftpupload.com/courses/" className="btns hover:bg-gray-500" >Programs</Link>
                 <Link href="#" className="btns hover:bg-gray-500">Tuition and Financial aid</Link>

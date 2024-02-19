@@ -20,9 +20,9 @@ export default function Programs() {
 			dest: "https://j4m.c1b.myftpupload.com/courses/information-systems/"
 		},
 		{
-			name: "Counseling",
+			name: "Mechanics",
 			icon: <FaHandsHelping size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses/mechanical-engineering/"
 		},
 		{
 			name: "Data Structures & Algorithms",
@@ -30,9 +30,9 @@ export default function Programs() {
 			dest: "https://j4m.c1b.myftpupload.com/courses/data-structures-algorithms/"
 		},
 		{
-			name: "Education",
+			name: "Psychology",
 			icon: <FaUserGraduate size={50} />,
-			dest: ""
+			dest: "https://j4m.c1b.myftpupload.com/courses/psychology/"
 		},
 		{
 			name: "Financial Accounting",
@@ -55,7 +55,7 @@ export default function Programs() {
 
 				<input type="search" placeholder="Search programs" className={`${poppins.className} my-4 bg-white placeholder:text-blue-500 border-b-4 border-blue-500 outline-0 focus:border-primary focus:border-b-4 pl-6 pr-24 py-2`} />
 
-				<p className="text-white my-8">Browse all <Link href="#" className="link">Degree programs</Link> or browse by <Link href="#" className="link">Doctoral degrees</Link></p>
+				<p className="text-white my-8">Browse all <Link href="#" className="link">Courses </Link> or browse by <Link href="#" className="link">Faculty</Link></p>
 			</div>
 
 			<div className="grid grid-cols-3 gap-6">
