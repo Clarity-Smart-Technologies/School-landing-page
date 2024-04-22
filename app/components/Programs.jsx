@@ -55,7 +55,7 @@ export default function Programs() {
 
 				<input type="search" placeholder="Search programs" className={`${poppins.className} my-4 bg-white placeholder:text-blue-500 border-b-4 border-blue-500 outline-0 focus:border-primary focus:border-b-4 pl-6 pr-24 py-2`} />
 
-				<p className="text-white my-8">Browse all <Link href="#" className="link">Courses </Link> or browse by <Link href="#" className="link">Faculty</Link></p>
+				<p className="text-white my-8">Browse all <Link href="https://j4m.c1b.myftpupload.com/courses/" className="link">Courses </Link></p>
 			</div>
 
 			<div className="grid grid-cols-3 gap-6">
