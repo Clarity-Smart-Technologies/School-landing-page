@@ -13,7 +13,7 @@ export default function DesktopTopNav() {
                 <Link href="https://j4m.c1b.myftpupload.com/dashboard/?redirect_to=https://j4m.c1b.myftpupload.com/dashboard/?redirect_to=https://j4m.c1b.myftpupload.com/dashboard/?redirect_to=https://j4m.c1b.myftpupload.com/dashboard/?redirect_to=https://j4m.c1b.myftpupload.com/dashboard/" className="p-2 hover:bg-gray-700">Login</Link>
                 <Link  href="https://j4m.c1b.myftpupload.com/elementor-landing-page-279/?preview=true" className="p-2 hover:bg-gray-700">Donate</Link>
 
-                <Link href="#" className="p-2 hover:bg-gray-700">Help Center</Link>
+                <Link href="https://j4m.c1b.myftpupload.com/help-center/" className="p-2 hover:bg-gray-700">Help Center</Link>
                 <Link href="https://j4m.c1b.myftpupload.com/founders/" className="p-2 hover:bg-gray-700">Founders Page</Link>
                 <Link href="https://j4m.c1b.myftpupload.com/contact-us/" className="p-2 hover:bg-gray-700">Call us</Link>
                 <Link href="https://j4m.c1b.myftpupload.com/courses/#" className="bg-blue-400 p-2 flex items-center border-r-2 border-l-2 border-white transition duration-500 hover:text-black hover:bg-white rounded-full font-bold">Apply now</Link>
